@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes externas</title>
+    <style>
+      @font-face {
+        font-family: "Pascoa";
+        src: url("fonts/Carrots Free.otf") format("opentype"),
+          url("fonts/Carrots Free.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        /* 
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat
+                - svg
+            */
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        font-family: "Pascoa", Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Feliz Páscoa</h1>
+    <p>
+      A Páscoa é um momento de renascimento e esperança, onde celebramos a
+      vitória da vida sobre a morte. É uma oportunidade de reflexão e gratidão,
+      unindo famílias e amigos em um sentimento de amor e harmonia. Que essa
+      data especial traga consigo a alegria e a paz que todos buscamos, enchendo
+      nossos corações de felicidade e renovando nossas esperanças em dias
+      melhores.
+    </p>
+  </body>
+</html>

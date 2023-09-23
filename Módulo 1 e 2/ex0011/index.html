@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treinando Mídias</title>
+  </head>
+  <body>
+    <h1>Mexendo com imagens dinâmicas</h1>
+    <p>
+      Ajuste o tamanho de sua guia, ou abra em um dispositivo com proporção de
+      tela diferente
+    </p>
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="imagens/foto-pequena.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/foto-media.png"
+        type="image/png"
+      />
+      <img src="imagens/foto-grande.png" alt="Imagem Grande Flexível" />
+    </picture>
+
+    <h1>Vamos mexer com áudio agora</h1>
+    <p>Abaixo tem um áudio para tocar</p>
+    <audio preload="metadata" controls>
+      <source src="midia/battlegrounds.mp3" type="audio/mpeg" />
+      <p>Seu navegador não consegue reproduzir o áudio.</p>
+      <a href="midia/battlegrounds.mp3"
+        >Clique aqui para baixar o arquivo do áudio MP3.</a
+      >
+    </audio>
+  </body>
+</html>

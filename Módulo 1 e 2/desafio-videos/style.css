@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 5;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+html,
+body {
+  height: 100%;
+  background: #2b2b2b;
+}
